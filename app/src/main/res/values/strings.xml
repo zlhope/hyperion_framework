@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright (C) 2015 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,7 +14,7 @@
   ~ limitations under the License.
   -->
 <resources>
-    <string name="app_name">Hyperion Framework</string>
+    <string name="app_name">Hyperion</string>
     <string name="hello_world">Hello UiAutomator!</string>
     <string name="change_text">Change text</string>
     <string name="type_something">type something…</string>
