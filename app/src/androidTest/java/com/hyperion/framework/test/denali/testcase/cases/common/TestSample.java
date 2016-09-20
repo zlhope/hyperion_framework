@@ -7,8 +7,9 @@ package com.hyperion.framework.test.denali.testcase.cases.common;
 import android.support.test.filters.SdkSuppress;
 import android.support.test.runner.AndroidJUnit4;
 
+import com.hyperion.framework.library.utils.HFLog;
 import com.hyperion.framework.library.utils.HFVariables;
-import com.hyperion.framework.test.denali.suite.BATSuite;
+import com.hyperion.framework.test.denali.suite.BAT_TAG;
 import com.hyperion.framework.test.denali.testcase.rule.COM_CaseRule;
 
 import org.junit.After;
@@ -24,7 +25,7 @@ public class TestSample extends COM_CaseRule {
     public void testSetup() throws Exception {
         HFVariables.TEST_CASE_NAME = testName.getMethodName();
         hfd.restartApp();
-        freeMapModule.waitForMainPage();
+        //freeMapModule.waitForFreeMap();
     }
 
     @After
@@ -32,15 +33,22 @@ public class TestSample extends COM_CaseRule {
     }
 
     @Test
-    @Category(BATSuite.class)
-    public void DP1MY18_1129_SearchHideInStationaryMode() throws Exception {
-        clickIfExist(freeMap.sideBarButton);
-        uiaAssertTrue("objExist(freeMap.oneBoxEditText)", objExist(freeMap.oneBoxEditText));
-        click(freeMap.close);
-        waitUtilObjDisappear(freeMap.oneBoxEditText);
-        uiaAssertTrue("checkScreen(oneBoxSearch)", freeMapModule.logic1());
-        freeMapModule.logic2();
-        uiaAssertTrue("checkScreen(oneBoxSearch)", freeMap.checkScreen());
-        uiaAssertTrue("checkScreen(oneBoxSearch)", navigationModule.commonLogic());
+    @Category(BAT_TAG.class)
+    public void commonCase1() throws Exception {
+        HFLog.addRecordToLog("Common case 1");
+        uiaAssertTrue("true", true);
+    }
+
+    @Test
+    @Category(BAT_TAG.class)
+    public void commonCase2() throws Exception {
+        HFLog.addRecordToLog("Common case 2");
+        uiaAssertTrue("true", false);
+    }
+
+    @Test
+    public void commonCase3() throws Exception {
+        HFLog.addRecordToLog("Common case 3");
+        uiaAssertTrue("true", false);
     }
 }

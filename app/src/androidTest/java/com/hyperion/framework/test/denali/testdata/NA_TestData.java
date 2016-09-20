@@ -279,7 +279,7 @@ public class NA_TestData extends TestData {
     public static String tc359Origin = "37.37890,-122.01074";
     public static String tc359Destination = "Shell";
     public static String tc359Waypoint = "Chevron";
-    // Denali-361:Add by recent places
+    // Denali-361:Add by recents places
     public static String tc361Origin = "37.37890,-122.01074";
     public static String tc361SearchText = "KFC";
     // Denali-362:Start Route
@@ -1281,7 +1281,7 @@ public class NA_TestData extends TestData {
     public static String tc1209origin = "37.385272, -122.017254,225";
     public static String tc1209dest = "Chevron";
 
-    // Denali-1210:Detailed recent info
+    // Denali-1210:Detailed recents info
     public static String tc1210origin = "37.37890,-122.01074";
     public static String tc1210destination = "Shell";
 

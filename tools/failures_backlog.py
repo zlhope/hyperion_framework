@@ -1,6 +1,6 @@
 import sys, os, time
-from distributedExecution.XmlParser import XmlParser
-from distributedExecution.HtmlHandler import HtmlHandler
+from report.xmlparser import XmlParser
+from report.htmlhandler import HtmlHandler
 DIR = r"..\\..\\"
 XML_PATH=r"\app\build\outputs\androidTest-results\connected\\"
 HTML_FILE = r'statistic\backlog.html'
@@ -49,6 +49,8 @@ for item in dir_list:
                         break
                 if not flag:
                     result_list.append({"testname":item1["testname"],"failures":1,"failinfo":[{"detail":item1["failinfo"],"count":1}]})
+        if dir_list.index(item)>=30:
+            break
     except:
         pass
     
@@ -61,10 +63,13 @@ total_count=0
 for item in result_list:
     total_count=total_count+item["failures"]
 for i in range(len(result_list)):
+    if i>=10:
+        break
     result_list[i]["id"]=i+1;
     result_list[i]["percentage"]=str(round(result_list[i]["failures"]/float(total_count)*100,2))+"%";
     handle.excute_staisic(result_list[i])
 handle1.generate_output()
 os.system("python statistic_report.py")
 print "Statistic report has been generated successfully!"
-sys.exit()
+os.system("taskkill /f /im adb.exe")
+sys.exit(0)

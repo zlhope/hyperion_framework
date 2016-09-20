@@ -1,0 +1,2829 @@
+{
+    "dictionary": {
+        "level_pairs": [
+            {
+                "traffic_level_id": 7,
+                "traffic_level_str": "FREE_FLOW"
+            },
+            {
+                "traffic_level_id": 1,
+                "traffic_level_str": "CLOSED"
+            },
+            {
+                "traffic_level_id": 3,
+                "traffic_level_str": "CONGESTED"
+            },
+            {
+                "traffic_level_id": 5,
+                "traffic_level_str": "SLOW_SPEED"
+            }
+        ]
+    },
+    "status": {
+        "message": "OK",
+        "status": 11200
+    },
+    "traffic_flow": [
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633801071,
+            "speed_in_mps": 20.197266944444443,
+            "traffic_id": "C6k/+xqWrgk5C/0pANoJCQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633303758,
+            "speed_in_mps": 9.968991944444443,
+            "traffic_id": "C6kcbBqinx9zFvzR/DcfAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566805,
+            "speed_in_mps": 8.306003055555555,
+            "traffic_id": "C6kthhqcWz7oAQBm/9s+Gg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632491976,
+            "speed_in_mps": 3.857955,
+            "traffic_id": "C6khYBqhCh9zCP6u/q8fAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632491977,
+            "speed_in_mps": 3.5852605555555557,
+            "traffic_id": "C6kiCBqhsx9zCP6Z/pYfAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566804,
+            "speed_in_mps": 9.816998333333334,
+            "traffic_id": "C6ka8Bqg3B9iFgMvA8kfEw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633519789,
+            "speed_in_mps": 11.243055833333333,
+            "traffic_id": "C6k5YxqXxxdACQCCAeYPEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633272760,
+            "speed_in_mps": 9.07044138888889,
+            "traffic_id": "C6k5shqY7A8gAgAcAGkPEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632881953,
+            "speed_in_mps": 4.5285150000000005,
+            "traffic_id": "C6kVKBqn1B97Af/DACYfS54=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566804,
+            "speed_in_mps": 8.341766388888889,
+            "traffic_id": "C6kpzhqTlhJfAf/5AE8SL6U=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633209860,
+            "speed_in_mps": 8.368588611111111,
+            "traffic_id": "C6kxRxqYiBdFAAALAAQXFQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633272760,
+            "speed_in_mps": 5.4047133333333335,
+            "traffic_id": "C6kwYRqXmx9iAQA9AFcXEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632304927,
+            "speed_in_mps": 9.504070277777778,
+            "traffic_id": "C6k1whqTWhJZG/lRAiwSCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632694866,
+            "speed_in_mps": 8.627871944444445,
+            "traffic_id": "C6kxRhqU6hJaGvobAuoSCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632787852,
+            "speed_in_mps": 8.502700555555556,
+            "traffic_id": "C6k9ahpa/x90Av9+/6IfI+U=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632491977,
+            "speed_in_mps": 9.30290222222222,
+            "traffic_id": "C6koJRqaYBJcJfi2BOwSCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633209861,
+            "speed_in_mps": 6.745833333333334,
+            "traffic_id": "C6k4vRqSlhJbB/4gAJISCQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633441767,
+            "speed_in_mps": 9.562185555555557,
+            "traffic_id": "C6k75BqQAxJbFvwCAz4SDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633318759,
+            "speed_in_mps": 7.6846175,
+            "traffic_id": "C6k31RqS3BJZEfuNARASCQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633318759,
+            "speed_in_mps": 9.651593333333333,
+            "traffic_id": "C6k6CBqRhRJcD/07AkgSCw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633209860,
+            "speed_in_mps": 9.714179166666666,
+            "traffic_id": "C6kyERqUkxJaB/5iALASCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632929834,
+            "speed_in_mps": 9.320783888888888,
+            "traffic_id": "C6kf/hqggBJbBf7sANMSDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633753835,
+            "speed_in_mps": 8.390940555555556,
+            "traffic_id": "C6kbkBqdJxdMAgBE/4EXQMk=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 24.636374166666666,
+            "report_time": 1417633753835,
+            "speed_in_mps": 15.279826944444444,
+            "traffic_id": "C6kodBp+pR98Av+JAFgXCw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.849945555555557,
+            "report_time": 1417632663907,
+            "speed_in_mps": 8.609990277777777,
+            "traffic_id": "C6k5zxpuBB9gIf+WBHYfM/k=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632491976,
+            "speed_in_mps": 8.176361388888889,
+            "traffic_id": "C6kdvRqntQ9yBf8G/0wfRCE=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633768939,
+            "speed_in_mps": 9.231375833333333,
+            "traffic_id": "C6k6MhpXHBdeFvwDAtwXDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566805,
+            "speed_in_mps": 7.4342749999999995,
+            "traffic_id": "C6kUnhqniRJbFPxoAv0SDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633753835,
+            "speed_in_mps": 9.316313333333333,
+            "traffic_id": "C6kS7Rqo8hJcG/sSBAESDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632304927,
+            "speed_in_mps": 9.392310277777778,
+            "traffic_id": "C6kVyBqmshJbAv92AGQSCw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663908,
+            "speed_in_mps": 8.641283055555554,
+            "traffic_id": "C6kViBqm4BJbCv4LAWoSCw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633692714,
+            "speed_in_mps": 7.456626944444444,
+            "traffic_id": "C6kfXBqg+xJbE/wFAmwSCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417633566804,
+            "speed_in_mps": 3.7417247222222225,
+            "traffic_id": "C6kctRqhiR9yAP/g/9cfAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632679847,
+            "speed_in_mps": 4.448047777777778,
+            "traffic_id": "C6khYBqhCh9jCAFnAWofEw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.420502222222222,
+            "report_time": 1417632850963,
+            "speed_in_mps": 4.845913333333334,
+            "traffic_id": "C6kdgRqiHB9zAP/4//gfAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.420502222222222,
+            "report_time": 1417632663906,
+            "speed_in_mps": 4.4435775,
+            "traffic_id": "C6kdRRqiOx9yAP/7//cfAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633801071,
+            "speed_in_mps": 9.240316666666667,
+            "traffic_id": "C6kibhqeZRJcC/4WAa8SDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566803,
+            "speed_in_mps": 8.095894166666668,
+            "traffic_id": "C6kkuBqcrxJbGvsXA60SDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632304927,
+            "speed_in_mps": 4.085945555555556,
+            "traffic_id": "C6kgwxqgbR9jCAFSAVEfEw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633393839,
+            "speed_in_mps": 9.472777500000001,
+            "traffic_id": "C6k4tRqR1xdeAf/RAE0XDQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417633676730,
+            "speed_in_mps": 4.760975833333333,
+            "traffic_id": "C6kepBqjcB9zAP/j/94fAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 19.437299166666666,
+            "report_time": 1417632491976,
+            "speed_in_mps": 8.033308611111112,
+            "traffic_id": "C6k4URqUQBdBBgBfAT0XEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417632647901,
+            "speed_in_mps": 12.597586944444444,
+            "traffic_id": "C6k4nBqVNxJEBwCOAZMSEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633131804,
+            "speed_in_mps": 11.573865555555555,
+            "traffic_id": "C6j7iRqp7xdUA//4/4cXHQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566805,
+            "speed_in_mps": 8.9139775,
+            "traffic_id": "C6kaqBqd2h9qAgCE/70fWos=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633378793,
+            "speed_in_mps": 11.24752638888889,
+            "traffic_id": "C6kqVRqTMRJbBf7eANkSDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633241774,
+            "speed_in_mps": 4.582160000000001,
+            "traffic_id": "C6kmXBqe+RJTDv20/bkSAw==",
+            "traffic_level": 3
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633241774,
+            "speed_in_mps": 5.109666944444444,
+            "traffic_id": "C6klFBqdkxJQAv/5/24SAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.849945555555557,
+            "report_time": 1417633566804,
+            "speed_in_mps": 5.833871944444444,
+            "traffic_id": "C6k5nhpwGB9zIQBq+4ofQPk=",
+            "traffic_level": 3
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633738744,
+            "speed_in_mps": 6.057391944444444,
+            "traffic_id": "C6koJRqgwBdTF/wq/DASAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633241774,
+            "speed_in_mps": 9.329724722222222,
+            "traffic_id": "C6kiXhqlaAogEwHIA9EKEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417633753835,
+            "speed_in_mps": 4.591100555555555,
+            "traffic_id": "C6kVAhqo7h9xAP/5//IfAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632679847,
+            "speed_in_mps": 4.4435775,
+            "traffic_id": "C6kUnhqniR9zAP/2//cfAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633753800,
+            "speed_in_mps": 9.074911944444445,
+            "traffic_id": "C6jv5hqk1BdIAwDR//0XFg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663906,
+            "speed_in_mps": 7.6846175,
+            "traffic_id": "C6k6CBqRhR9xAP/6//EfAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.986150277777778,
+            "report_time": 1417632304926,
+            "speed_in_mps": 8.364118333333334,
+            "traffic_id": "C6k4txqRAB94AP/sAAAfCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632304926,
+            "speed_in_mps": 8.377529444444445,
+            "traffic_id": "C6kvzhqYWBpxAv/Q/3UaAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632850963,
+            "speed_in_mps": 9.5845375,
+            "traffic_id": "C6kupRqWhxpyAv+0/3gaQmU=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.986150277777778,
+            "report_time": 1417633566804,
+            "speed_in_mps": 7.590739166666666,
+            "traffic_id": "C6kwbhqTpR94AP/vAAAfCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632151092,
+            "speed_in_mps": 9.5845375,
+            "traffic_id": "C6kWDRqmeRdLBADZ/2UXGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633692714,
+            "speed_in_mps": 9.280550277777778,
+            "traffic_id": "C6ktIBqXFRJMAQA4/8MXHQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633816791,
+            "speed_in_mps": 9.057030277777779,
+            "traffic_id": "C6kksxqcqRdKAQBQ/9UXGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632304927,
+            "speed_in_mps": 8.6904575,
+            "traffic_id": "C6k30xqS1BdJAAAR//wXGQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633303758,
+            "speed_in_mps": 9.378899166666665,
+            "traffic_id": "C6kzmxqNFh94DPzTAEQfBQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633393839,
+            "speed_in_mps": 9.839350277777777,
+            "traffic_id": "C6kOjxqV+BdZAf+FAAEXBg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633054807,
+            "speed_in_mps": 8.078012777777777,
+            "traffic_id": "C6k32xqS0hJJBwHB/38SGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633692714,
+            "speed_in_mps": 8.931859166666667,
+            "traffic_id": "C6kughqWPxJKGgXm/RUSGg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632929834,
+            "speed_in_mps": 7.765084722222222,
+            "traffic_id": "C6kdfRqiGRJKEwQE/YQSGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633550754,
+            "speed_in_mps": 9.602419166666667,
+            "traffic_id": "C6k7/RqKbB9wAgAB/48fIK4=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633131804,
+            "speed_in_mps": 11.573865555555555,
+            "traffic_id": "C6j+6Bqs0RdUNvjE+dEXBA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566804,
+            "speed_in_mps": 8.471407777777777,
+            "traffic_id": "C6k2sxqWKx9xA//O/2YfAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633303758,
+            "speed_in_mps": 8.949740555555556,
+            "traffic_id": "C6k7+RqMTRpwB//3/nYaAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633257761,
+            "speed_in_mps": 11.685625555555555,
+            "traffic_id": "C6kofBqVEBJNEgLH/MwSHA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633550754,
+            "speed_in_mps": 6.710070277777778,
+            "traffic_id": "C6k7/RqKdB9wAAAA//AfAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633566805,
+            "speed_in_mps": 5.833871944444444,
+            "traffic_id": "C6k1yhp1DR9sbAih8OcfIAE=",
+            "traffic_level": 3
+        },
+        {
+            "free_flow_speed_in_mps": 27.779065555555555,
+            "report_time": 1417633566804,
+            "speed_in_mps": 16.942815833333334,
+            "traffic_id": "C6kguxqFOBdLaRAc8jwXWwk=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633209860,
+            "speed_in_mps": 9.4996,
+            "traffic_id": "C6kzoxqPxBp4Af+VAAAaCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633550754,
+            "speed_in_mps": 7.483449444444445,
+            "traffic_id": "C6kwYRqaNBqACf/3AeknEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417632135163,
+            "speed_in_mps": 9.960051111111111,
+            "traffic_id": "C6ktvBqakR9gAAACAAkfEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632135163,
+            "speed_in_mps": 8.306003055555555,
+            "traffic_id": "C6ktnxqcCR+BBwC6AV4nEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633550754,
+            "speed_in_mps": 7.000646388888889,
+            "traffic_id": "C6ksARqXrx9iAAAJAA8fEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566804,
+            "speed_in_mps": 7.7337919444444445,
+            "traffic_id": "C6ks1hqZDB9hAQAvAEkfEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 27.779065555555555,
+            "report_time": 1417632663908,
+            "speed_in_mps": 14.998191944444445,
+            "traffic_id": "C6kWgRqNwhdKSgzT9cYXHA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633378793,
+            "speed_in_mps": 12.503708611111112,
+            "traffic_id": "C6kEhxqb8RdSRQpI9u0XGQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633303758,
+            "speed_in_mps": 9.839350277777777,
+            "traffic_id": "C6k1YBqPxR9vAAAB//IfHw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.841004722222223,
+            "report_time": 1417633303758,
+            "speed_in_mps": 9.222435,
+            "traffic_id": "C6kxRhqU6hdSAP/3//IXAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566805,
+            "speed_in_mps": 5.386831944444444,
+            "traffic_id": "C6k1PhqZWCeSAgAH/3AfHw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417632491977,
+            "speed_in_mps": 9.61136,
+            "traffic_id": "C6k8axqU/x94AP/tAAEfCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 27.779065555555555,
+            "report_time": 1417633801071,
+            "speed_in_mps": 16.495775833333333,
+            "traffic_id": "C6k0uBqWlQkkFgSgAvIJVaw=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 28.64632305555556,
+            "report_time": 1417633692714,
+            "speed_in_mps": 16.218611111111112,
+            "traffic_id": "C6k3ZxqYOwkkDgM/AUoJNg8=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632430036,
+            "speed_in_mps": 9.356546944444446,
+            "traffic_id": "C6k7ORqVIh9pCQJ//7YfGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663906,
+            "speed_in_mps": 8.207654166666666,
+            "traffic_id": "C6k8axqU/x9oFwYz/9IfGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632135162,
+            "speed_in_mps": 8.306003055555555,
+            "traffic_id": "C6ktvRqalR9gD/++Ax0fEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632850963,
+            "speed_in_mps": 8.422233333333333,
+            "traffic_id": "C6kt9RqcrCeSB/9G/qIfAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417632663907,
+            "speed_in_mps": 8.176361388888889,
+            "traffic_id": "C6ktvRqalR9wAP/+//cfAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633550754,
+            "speed_in_mps": 6.441846388888889,
+            "traffic_id": "C6ksBRqXth9yAP/3//EfAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633022866,
+            "speed_in_mps": 8.221065555555555,
+            "traffic_id": "C6kwXBqbGCeQB//7/oAfAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417633303758,
+            "speed_in_mps": 8.556345555555556,
+            "traffic_id": "C6kwXRqZnh9wAAAA/+cfAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633272760,
+            "speed_in_mps": 7.510271944444444,
+            "traffic_id": "C6k/NRqE3hd4A/86ABEfCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633629760,
+            "speed_in_mps": 11.176,
+            "traffic_id": "C6kwQRqXtRdKEAPN/nESOtQ=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633738744,
+            "speed_in_mps": 12.007494166666666,
+            "traffic_id": "C6ks1hqZDBJKCwKk/vYSOsc=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632135164,
+            "speed_in_mps": 9.437014166666666,
+            "traffic_id": "C6k34BqFHx93BP7HABwfTNE=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633801071,
+            "speed_in_mps": 9.240316666666667,
+            "traffic_id": "C6khihqfLhdcAf/QAC0XDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632491976,
+            "speed_in_mps": 9.30290222222222,
+            "traffic_id": "C6kkvxqcqxdbAP/xAAgXCw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632694866,
+            "speed_in_mps": 8.627871944444445,
+            "traffic_id": "C6kuhxqWRRdbAP/1AAYXCw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632304927,
+            "speed_in_mps": 9.504070277777778,
+            "traffic_id": "C6kypRqUXRJaBf7DAHQSCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417633209861,
+            "speed_in_mps": 6.745833333333334,
+            "traffic_id": "C6k33RqS2hdZAP/uAAQXCQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663906,
+            "speed_in_mps": 9.191142222222222,
+            "traffic_id": "C6k8ABqA/RpvBwAY/mIaHw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566804,
+            "speed_in_mps": 7.4342749999999995,
+            "traffic_id": "C6kS8Rqo7hdcAP/3AAkXDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566764,
+            "speed_in_mps": 8.45352638888889,
+            "traffic_id": "C6jwRxqk0xdWA/8vAAMXCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633503794,
+            "speed_in_mps": 6.692188611111112,
+            "traffic_id": "C6kjNBqnVQowFf4p++0KAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633051816,
+            "speed_in_mps": 8.078012777777777,
+            "traffic_id": "C6k4rBqSlhdLAAAb/+8XGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633692714,
+            "speed_in_mps": 8.931859166666667,
+            "traffic_id": "C6kxQhqU4xdKAAAW//YXGg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417632929834,
+            "speed_in_mps": 7.765084722222222,
+            "traffic_id": "C6kfXRqg8BJLAAAo/+MXGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632135163,
+            "speed_in_mps": 9.960051111111111,
+            "traffic_id": "C6ks7BqZLh9iDwG/AvsfEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566804,
+            "speed_in_mps": 7.7337919444444445,
+            "traffic_id": "C6ksBRqXth9iDwHAAt0fEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633864097,
+            "speed_in_mps": 19.173545555555556,
+            "traffic_id": "C6kyPBqUjAkvBv/q/rMJAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633550754,
+            "speed_in_mps": 7.483449444444445,
+            "traffic_id": "C6kwXRqZnh9/BgAHAUIaEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566805,
+            "speed_in_mps": 5.275071944444444,
+            "traffic_id": "C6kT6BqpsRp8B/7OAP8fAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632135162,
+            "speed_in_mps": 7.313574166666666,
+            "traffic_id": "C6kVAhqo7hp6DP2jAaQaDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633162800,
+            "speed_in_mps": 19.79940138888889,
+            "traffic_id": "C6k1kBqMbT73Cf1//+w+CQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633162800,
+            "speed_in_mps": 19.33448,
+            "traffic_id": "C6k0ZhqMZD76Bf8EAKg+Cw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632491976,
+            "speed_in_mps": 7.702499166666667,
+            "traffic_id": "C6kXGBqopBp4EfuGAJ4aCQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633209860,
+            "speed_in_mps": 9.65606388888889,
+            "traffic_id": "C6kXrRqojRp8Bf7AADIaCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 27.779065555555555,
+            "report_time": 1417633801071,
+            "speed_in_mps": 16.495775833333333,
+            "traffic_id": "C6k0uBqWlQkkFgSgAvIJdVlT",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 27.779065555555555,
+            "report_time": 1417633692714,
+            "speed_in_mps": 16.218611111111112,
+            "traffic_id": "C6k24BqX9AklBQEjAJgJFQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632787852,
+            "speed_in_mps": 9.691826944444443,
+            "traffic_id": "C6k8axqU/xp/DP6AAh0aMA0=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633303758,
+            "speed_in_mps": 9.749942222222222,
+            "traffic_id": "C6k8QRqUkhphBABbAOoaEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663906,
+            "speed_in_mps": 8.989974166666666,
+            "traffic_id": "C6k8FBqT9hpgBQBLAQwaEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663908,
+            "speed_in_mps": 8.511641388888888,
+            "traffic_id": "C6k7+xqMFBpgBAAGAOAaEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633676730,
+            "speed_in_mps": 9.548774166666666,
+            "traffic_id": "C6k7/RqKdB9/Cv/7Ai0aDw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633784865,
+            "speed_in_mps": 8.127186944444444,
+            "traffic_id": "C6k7/hqPwh9gAQAGAFEfEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566804,
+            "speed_in_mps": 6.862063888888889,
+            "traffic_id": "C6kxPRpZTxdPAQAE/8UXHw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663907,
+            "speed_in_mps": 9.723120000000002,
+            "traffic_id": "C6k1ehqOax9gDf/KAtgfEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632787852,
+            "speed_in_mps": 8.297062222222221,
+            "traffic_id": "C6k2chqVYB9hBQBYARgfEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632679847,
+            "speed_in_mps": 3.933951944444445,
+            "traffic_id": "C6kVBhqoaB9vBQAL/ucfAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632679847,
+            "speed_in_mps": 4.4435775,
+            "traffic_id": "C6kVDBqn5R9zBf8V/zofAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417632663907,
+            "speed_in_mps": 7.2241663888888885,
+            "traffic_id": "C6k5zxpuBB9gbPdfDxkfTAE=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.841004722222223,
+            "report_time": 1417632631957,
+            "speed_in_mps": 12.606527777777778,
+            "traffic_id": "C6kv7hqX4BdaBP7cAHYXCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417632631957,
+            "speed_in_mps": 10.916716666666666,
+            "traffic_id": "C6kwiBqXohdaAf+JACwXCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 27.779065555555555,
+            "report_time": 1417632631957,
+            "speed_in_mps": 15.834156666666667,
+            "traffic_id": "C6kcexqI/hdcSvMtCjoXCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 27.779065555555555,
+            "report_time": 1417632663908,
+            "speed_in_mps": 16.942815833333334,
+            "traffic_id": "C6koPBp+zhdbae/kDcQXKwk=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633393839,
+            "speed_in_mps": 9.580066944444445,
+            "traffic_id": "C6kuhxqWRRpiFQKXA9caUQc=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633503794,
+            "speed_in_mps": 10.635081388888889,
+            "traffic_id": "C6kJURqXthdZRfW4CRMXEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632679847,
+            "speed_in_mps": 4.729683055555555,
+            "traffic_id": "C6kT4hqprR90A/9q/5MfBA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633753835,
+            "speed_in_mps": 9.343135833333333,
+            "traffic_id": "C6k8WxqPyhJIFgXq//ASGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632304926,
+            "speed_in_mps": 8.6904575,
+            "traffic_id": "C6k1vxqTUxJJEQR0/u8SGQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633816791,
+            "speed_in_mps": 15.780511944444445,
+            "traffic_id": "C6kSIxqrPgksCgHm/lcJHA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417632631957,
+            "speed_in_mps": 10.916716666666666,
+            "traffic_id": "C6kx9RqXDRJaDfzyAT8SCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417632631957,
+            "speed_in_mps": 12.606527777777778,
+            "traffic_id": "C6kwURqXthJaA/8sAFoSCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633692714,
+            "speed_in_mps": 9.378899166666665,
+            "traffic_id": "C6kg8hqfqxJMBQEC/xsSHA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633816791,
+            "speed_in_mps": 9.057030277777779,
+            "traffic_id": "C6kiaRqeYBJMGgTq/FISGg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633692714,
+            "speed_in_mps": 9.280550277777778,
+            "traffic_id": "C6ksARqXrxJKCwJo/rUSHA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633692714,
+            "speed_in_mps": 9.575596666666668,
+            "traffic_id": "C6ktOhqW+BJMDQK//nMSGg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633816791,
+            "speed_in_mps": 7.671206388888889,
+            "traffic_id": "C6kaIxqjwhJKIAcy/G8SGg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632320900,
+            "speed_in_mps": 8.726220555555555,
+            "traffic_id": "C6kUmRqnhRJLCgH2/pgSGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632445899,
+            "speed_in_mps": 7.335926388888889,
+            "traffic_id": "C6kS6xqo7BJMFAOb/P4SGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632151092,
+            "speed_in_mps": 9.5845375,
+            "traffic_id": "C6kVgxqm3RJLBgEo/ygSGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633054807,
+            "speed_in_mps": 8.440115,
+            "traffic_id": "C6kQmxqqyxJMGwT2+/wSHA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632304927,
+            "speed_in_mps": 8.319414166666666,
+            "traffic_id": "C6kxRxqYiBdTCv5P/lsXAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633519789,
+            "speed_in_mps": 8.650223888888888,
+            "traffic_id": "C6kpxxqVuxJPBgAA/pUSAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663908,
+            "speed_in_mps": 8.8022175,
+            "traffic_id": "C6kpyBqVABJQDv/8/QQSAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632135164,
+            "speed_in_mps": 9.437014166666666,
+            "traffic_id": "C6k4sBqFKR93C/0IAAcfLBM=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632850963,
+            "speed_in_mps": 4.845913333333334,
+            "traffic_id": "C6kduhqiRR9zAv+H/6gfAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417633566804,
+            "speed_in_mps": 3.7417247222222225,
+            "traffic_id": "C6kdQhqiNx9xCP7R/owfAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633393839,
+            "speed_in_mps": 9.445955,
+            "traffic_id": "C6ksGhqdMBdOB//u/mkXAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633272760,
+            "speed_in_mps": 9.660534166666668,
+            "traffic_id": "C6kq2BqZ7xdUBf8J/yAXAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632135162,
+            "speed_in_mps": 7.394041388888889,
+            "traffic_id": "C6kqZRqZhhdSCf7z/kAXAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633519789,
+            "speed_in_mps": 8.6904575,
+            "traffic_id": "C6ksERqcchJSCv9O/dQSAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633753835,
+            "speed_in_mps": 8.390940555555556,
+            "traffic_id": "C6kbkBqdJxdMAgBE/4EXIDY=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632913848,
+            "speed_in_mps": 8.6904575,
+            "traffic_id": "C6kdSBqnYR90C/58/fofAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566805,
+            "speed_in_mps": 9.325254166666667,
+            "traffic_id": "C6kyIBqNNh9lDAMt/7wfGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632539956,
+            "speed_in_mps": 8.292591944444444,
+            "traffic_id": "C6k3HBqNGB9oDQNfAAEfGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566804,
+            "speed_in_mps": 7.2241663888888885,
+            "traffic_id": "C6k7/hqPwh9oAgCpAAEfFw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633272760,
+            "speed_in_mps": 10.921186944444445,
+            "traffic_id": "C6k5shqY7A8xAv/Z/3EPAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632304926,
+            "speed_in_mps": 9.87958388888889,
+            "traffic_id": "C6k1hxqXBRJMBwDc/o8SHw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566805,
+            "speed_in_mps": 9.168790277777777,
+            "traffic_id": "C6k0xhqXth9qBgEi/wMaHQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633784865,
+            "speed_in_mps": 8.699398333333333,
+            "traffic_id": "C6k7/xqBCx98AP/zAA4fDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566804,
+            "speed_in_mps": 8.104835,
+            "traffic_id": "C6kwbhqTpRpgDgHdAqEaEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633768939,
+            "speed_in_mps": 12.19972138888889,
+            "traffic_id": "C6k4nBqVNxdRBP+9/ykXAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566804,
+            "speed_in_mps": 8.176361388888889,
+            "traffic_id": "C6k4URqUQBJTD/72/QQSAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633519789,
+            "speed_in_mps": 11.439753333333334,
+            "traffic_id": "C6k5YxqXxxdRE/7S/BkSAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633550754,
+            "speed_in_mps": 9.209023888888888,
+            "traffic_id": "C6k9mRqNIh9oDQNy//waFw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633393839,
+            "speed_in_mps": 9.749942222222222,
+            "traffic_id": "C6k7/RqNHx9oDQN1AAcfGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633393839,
+            "speed_in_mps": 11.743740555555556,
+            "traffic_id": "C6kkARqZQxJZD/wsAMQSKxQ=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632663906,
+            "speed_in_mps": 8.113775833333333,
+            "traffic_id": "C6k78xqBDh9sAAAd/9wfHQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633007829,
+            "speed_in_mps": 9.875113333333335,
+            "traffic_id": "C6kpzRqVERJABgAAAWwSDw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632772850,
+            "speed_in_mps": 7.648854166666666,
+            "traffic_id": "C6krxhqbaxJBCwCiAjUSDg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633519789,
+            "speed_in_mps": 8.614460555555556,
+            "traffic_id": "C6ksERqcchdABwASAZcXDg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633519789,
+            "speed_in_mps": 8.623401388888889,
+            "traffic_id": "C6krKRqaghdDCgFRAfMSEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633393839,
+            "speed_in_mps": 6.835241388888889,
+            "traffic_id": "C6kp5xqYtRdCCQENAcAXEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417633378793,
+            "speed_in_mps": 8.694927777777778,
+            "traffic_id": "C6k4uRqKcRdXAP/o//8XBw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566804,
+            "speed_in_mps": 7.926019166666667,
+            "traffic_id": "C6k1rBqKcBdXAv9O//gXCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633864097,
+            "speed_in_mps": 16.96516777777778,
+            "traffic_id": "C6k1wRqJxQk+B/9sAYUJLzU=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633864097,
+            "speed_in_mps": 14.88196138888889,
+            "traffic_id": "C6k+ExqBoQk6EPzAAgkJCw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632881953,
+            "speed_in_mps": 4.5285150000000005,
+            "traffic_id": "C6kWrhqnOx96D/x/AW4fKwc=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633303758,
+            "speed_in_mps": 4.546396666666666,
+            "traffic_id": "C6kcchqiox90AP/0//kfBA==",
+            "traffic_level": 3
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632991862,
+            "speed_in_mps": 8.967622222222221,
+            "traffic_id": "C6k4sRqC8RJAAwAGAKkSEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633209861,
+            "speed_in_mps": 8.368588611111111,
+            "traffic_id": "C6kwfRqXwxdCCgGxAaUXEw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632524106,
+            "speed_in_mps": 9.87958388888889,
+            "traffic_id": "C6kpzhqTlhJfD///Ay0XUAg=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417632647901,
+            "speed_in_mps": 12.597586944444444,
+            "traffic_id": "C6k4fRqU0xdABABDANcXEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632491976,
+            "speed_in_mps": 8.033308611111112,
+            "traffic_id": "C6k33RqS2hJBDwD4AwASDw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632491977,
+            "speed_in_mps": 3.857955,
+            "traffic_id": "C6kgwxqgbR9zAP/v//AfAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633645732,
+            "speed_in_mps": 8.627871944444445,
+            "traffic_id": "C6k1VhqXRhp8Bv7KAPEfCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417633393839,
+            "speed_in_mps": 8.609990277777777,
+            "traffic_id": "C6k8shqY/B9pAAAq//YfGQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633272760,
+            "speed_in_mps": 9.07044138888889,
+            "traffic_id": "C6k5oBqYqQ8hAgAnAI8PEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633519789,
+            "speed_in_mps": 11.243055833333333,
+            "traffic_id": "C6k43xqV8xJBEwEcA+sXEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633519789,
+            "speed_in_mps": 8.989974166666666,
+            "traffic_id": "C6kxSRqYixp7Dv4GAk0aCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633022866,
+            "speed_in_mps": 8.5786975,
+            "traffic_id": "C6ktvRqalRp4DvzeATQaDQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633503794,
+            "speed_in_mps": 12.526060555555555,
+            "traffic_id": "C6kpyBqTkhdLBQD9/z8SGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632850963,
+            "speed_in_mps": 5.087314999999999,
+            "traffic_id": "C6kUnhqniR9jBQDrAMYfEw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417633209861,
+            "speed_in_mps": 4.385462222222222,
+            "traffic_id": "C6kVDBqn5R9hBf/1ARkfDw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417633753835,
+            "speed_in_mps": 4.3318175,
+            "traffic_id": "C6kVBhqoaB9/Bf/wARAfEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633566805,
+            "speed_in_mps": 12.204191944444444,
+            "traffic_id": "C6kwYRqOiRJLGAPU/CoSQAU=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632679847,
+            "speed_in_mps": 5.002377500000001,
+            "traffic_id": "C6kQzBqm4x99Av+fAHQfDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633864097,
+            "speed_in_mps": 16.96516777777778,
+            "traffic_id": "C6k4KRqG8Ak8JPrWBhMJDg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633864097,
+            "speed_in_mps": 14.88196138888889,
+            "traffic_id": "C6lEXRp+8Ak5O/KABcgJCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566804,
+            "speed_in_mps": 9.571126388888889,
+            "traffic_id": "C6k4rhqGlhJQAv/+/3oSAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566805,
+            "speed_in_mps": 6.111036666666666,
+            "traffic_id": "C6k4vRqSlhdSAf/k/7wXAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417633272760,
+            "speed_in_mps": 6.3434975,
+            "traffic_id": "C6k4rhqKcRdQAAAA/+8XAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632850963,
+            "speed_in_mps": 6.768185555555556,
+            "traffic_id": "C6k4qhqMpBJQAv///3gSAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632135162,
+            "speed_in_mps": 8.896095833333334,
+            "traffic_id": "C6k9RRqCGhJUAf+z/9ASBA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632491976,
+            "speed_in_mps": 9.61136,
+            "traffic_id": "C6k/TxqU6h94F/nNAC4fCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633022866,
+            "speed_in_mps": 7.791906944444445,
+            "traffic_id": "C6k8YxqVAB94Cf2BAEofCQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633241774,
+            "speed_in_mps": 8.748572777777778,
+            "traffic_id": "C6kXlBqoURJQDv4R/awSAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633613757,
+            "speed_in_mps": 9.477247777777777,
+            "traffic_id": "C6kksxqcqRJTJfqg+YcSAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633613757,
+            "speed_in_mps": 3.7461949999999997,
+            "traffic_id": "C6klBBqdBxJSBP9d/0ISAg==",
+            "traffic_level": 3
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633303758,
+            "speed_in_mps": 8.556345555555556,
+            "traffic_id": "C6kwWhqaZRpvCAAH/lUfHw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632850963,
+            "speed_in_mps": 8.422233333333333,
+            "traffic_id": "C6kuLhqcyieVAv+H/78nQ18=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663907,
+            "speed_in_mps": 8.176361388888889,
+            "traffic_id": "C6ktnxqcCR9xDwBC/OMfAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633550754,
+            "speed_in_mps": 6.441846388888889,
+            "traffic_id": "C6ks1hqZDB9xD/5A/SMfAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633022866,
+            "speed_in_mps": 8.221065555555555,
+            "traffic_id": "C6kwYxqcMieQC//y/aInAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633393839,
+            "speed_in_mps": 6.964883055555556,
+            "traffic_id": "C6k+ZRqKcBJHBgHKAAMSGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663908,
+            "speed_in_mps": 8.377529444444445,
+            "traffic_id": "C6kclBqmbx9iCwGEAgYfFA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417633613757,
+            "speed_in_mps": 3.7461949999999997,
+            "traffic_id": "C6kkuBqcrxdTAP/1//MXAw==",
+            "traffic_level": 3
+        },
+        {
+            "free_flow_speed_in_mps": 15.986150277777778,
+            "report_time": 1417633613757,
+            "speed_in_mps": 9.477247777777777,
+            "traffic_id": "C6kiMhqZpBdSAP/2//MXAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 16.004031944444446,
+            "report_time": 1417633272760,
+            "speed_in_mps": 7.139228611111111,
+            "traffic_id": "C6k4txqFKRdAAAAAAAYXEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633488775,
+            "speed_in_mps": 3.419855833333333,
+            "traffic_id": "C6klERqdTxdQAv/k/2YXQVs=",
+            "traffic_level": 3
+        },
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633738744,
+            "speed_in_mps": 19.727875,
+            "traffic_id": "C6krBRqP4wksQg2D+HAJFw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632679847,
+            "speed_in_mps": 6.575958333333333,
+            "traffic_id": "C6kbrxqc7BdAAv+8AH8XTDY=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633864098,
+            "speed_in_mps": 4.376521388888889,
+            "traffic_id": "C6kX0hqoqxJTBP98/z4SAA==",
+            "traffic_level": 3
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417633566805,
+            "speed_in_mps": 3.200806388888889,
+            "traffic_id": "C6kctRqhiR9jCAEvAXQfEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.986150277777778,
+            "report_time": 1417633784865,
+            "speed_in_mps": 8.292591944444444,
+            "traffic_id": "C6k4sBqIfR9nAAARAAIfFw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633566804,
+            "speed_in_mps": 12.204191944444444,
+            "traffic_id": "C6kyKRqMvxJwBf+2/tsfAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633303758,
+            "speed_in_mps": 6.826300555555556,
+            "traffic_id": "C6kXARqooB9oAAAv//sfGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.420502222222222,
+            "report_time": 1417632135162,
+            "speed_in_mps": 4.698390277777778,
+            "traffic_id": "C6kXrRqojR9tAAAJ//UfHQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633054807,
+            "speed_in_mps": 11.243055833333333,
+            "traffic_id": "C6j+6Bqs0RdUNvjE+dEXBA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633503794,
+            "speed_in_mps": 12.526060555555555,
+            "traffic_id": "C6kqPhqTOBdLAwCg/4cXGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632850963,
+            "speed_in_mps": 9.244786944444444,
+            "traffic_id": "C6kiNBqZmRdLAAAd/+sXGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417633864098,
+            "speed_in_mps": 7.617561388888889,
+            "traffic_id": "C6k4rhqKaRdIAAAXAAAXGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633503794,
+            "speed_in_mps": 8.279180555555556,
+            "traffic_id": "C6k1WRqKbBdIAgCNAAAXGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633257761,
+            "speed_in_mps": 7.675676666666667,
+            "traffic_id": "C6kyFxqKQR9nAgC9AAMfN2A=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.809711944444444,
+            "report_time": 1417633738744,
+            "speed_in_mps": 12.007494166666666,
+            "traffic_id": "C6krThqZtBJLDgNJ/pcSGg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633629760,
+            "speed_in_mps": 11.176,
+            "traffic_id": "C6kv0RqX4xJKBADx/54SGg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633519789,
+            "speed_in_mps": 9.419132777777778,
+            "traffic_id": "C6k4sBqSdhdAAQAcAEQXEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633503794,
+            "speed_in_mps": 8.963151944444444,
+            "traffic_id": "C6k4sxqEtxJABAAKAPQSUMU=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633007829,
+            "speed_in_mps": 8.520582222222222,
+            "traffic_id": "C6k4uxqGURJAAgACAIUSEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633645732,
+            "speed_in_mps": 8.176361388888889,
+            "traffic_id": "C6k4uRqMZRJAAv/8AIgSDw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417633753835,
+            "speed_in_mps": 9.106204722222222,
+            "traffic_id": "C6k4uBqKaRdAAAABABIXEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632663907,
+            "speed_in_mps": 4.063593333333333,
+            "traffic_id": "C6kTnBqpeh9kAwCWAG0fFA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417633676730,
+            "speed_in_mps": 4.707331111111111,
+            "traffic_id": "C6kS8Rqo7hpkCAFvAS4fFA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633738744,
+            "speed_in_mps": 9.620300555555556,
+            "traffic_id": "C6kRKBqd0hdFDAHVAf0XEw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.986150277777778,
+            "report_time": 1417633209860,
+            "speed_in_mps": 7.912607777777778,
+            "traffic_id": "C6kbihqdLBdMAAAM//YXHA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633676730,
+            "speed_in_mps": 9.620300555555556,
+            "traffic_id": "C6k/NBqNJxp3DfyP//UfCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633209860,
+            "speed_in_mps": 9.910876666666667,
+            "traffic_id": "C6k9ZRqKdxJYC/z8//oSCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633864098,
+            "speed_in_mps": 9.222435,
+            "traffic_id": "C6k7/RqKdBJYDfx///0SCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633378793,
+            "speed_in_mps": 8.694927777777778,
+            "traffic_id": "C6k6WxqKchJYDfx+//4SCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632631957,
+            "speed_in_mps": 7.7337919444444445,
+            "traffic_id": "C6k4rhqKcRJYDfxzAAISCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566805,
+            "speed_in_mps": 7.926019166666667,
+            "traffic_id": "C6k3BhqKchJXC/0a//sSCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566804,
+            "speed_in_mps": 6.862063888888889,
+            "traffic_id": "C6kwqxpaIRdMCQE7/j4XHg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633209860,
+            "speed_in_mps": 9.4996,
+            "traffic_id": "C6k3BhqPxBp4HPi8AAAaCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663907,
+            "speed_in_mps": 6.334556666666666,
+            "traffic_id": "C6kxQhqU4xpyDv4o/VUaAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632491976,
+            "speed_in_mps": 3.8892477777777774,
+            "traffic_id": "C6k8TRqPwx93Av9X//8fCA==",
+            "traffic_level": 3
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633303758,
+            "speed_in_mps": 9.839350277777777,
+            "traffic_id": "C6k1vxqTUx9xJf80+F4fAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.841004722222223,
+            "report_time": 1417632850963,
+            "speed_in_mps": 7.644383888888889,
+            "traffic_id": "C6kx1xpZFx97Af/lADsfEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566805,
+            "speed_in_mps": 8.471407777777777,
+            "traffic_id": "C6k3tRqXBh9zDP3W/iofQRQ=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632663908,
+            "speed_in_mps": 7.554975833333334,
+            "traffic_id": "C6k2mxqV4x9xBf+o/ugfAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633550754,
+            "speed_in_mps": 6.710070277777778,
+            "traffic_id": "C6k79RqLlhpwCwAT/ZIfHw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633303758,
+            "speed_in_mps": 8.949740555555556,
+            "traffic_id": "C6k7+RqMfBpwAQAA/5saAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633550754,
+            "speed_in_mps": 9.101734166666667,
+            "traffic_id": "C6k7/RqNHxpxBv/3/qMaHw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633393839,
+            "speed_in_mps": 7.751673333333334,
+            "traffic_id": "C6k8ARqP6B9wAf/6/68fAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632135164,
+            "speed_in_mps": 9.200083055555556,
+            "traffic_id": "C6k9ZRqKcBJHCAIk//8SGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633550754,
+            "speed_in_mps": 9.65606388888889,
+            "traffic_id": "C6k8LhqUdhpxBf+2/vIaAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633864098,
+            "speed_in_mps": 11.448694166666666,
+            "traffic_id": "C6kiKBqZihdCAAAjACwXEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633241774,
+            "speed_in_mps": 11.953849444444444,
+            "traffic_id": "C6k/FRqZvxKdCf7rAbwiDQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633363779,
+            "speed_in_mps": 8.873743888888889,
+            "traffic_id": "C6klCBqdBBdCAgAcAG4XEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632304927,
+            "speed_in_mps": 8.364118333333334,
+            "traffic_id": "C6k6BRqRfh9xDf01/vEfBw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633784865,
+            "speed_in_mps": 9.074911944444445,
+            "traffic_id": "C6k4rhqRAB94DfxwAC4fCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566804,
+            "speed_in_mps": 9.816998333333334,
+            "traffic_id": "C6kcbBqinx9kAAAMAAcfFA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.995091111111112,
+            "report_time": 1417632756880,
+            "speed_in_mps": 7.318044722222222,
+            "traffic_id": "C6kWsxqnNhdCAAAGAAkXEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633503794,
+            "speed_in_mps": 6.6787775,
+            "traffic_id": "C6kXnxqoZxdABACnAKoSEw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632631957,
+            "speed_in_mps": 9.352076666666667,
+            "traffic_id": "C6ke1Rqf4R9yEPz//aQaBA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632850963,
+            "speed_in_mps": 8.073542222222223,
+            "traffic_id": "C6k4rhqNGRJQBP/4/wYSIOE=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633519789,
+            "speed_in_mps": 8.650223888888888,
+            "traffic_id": "C6kpxxqVEhdPAAAB/9sXHw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632850963,
+            "speed_in_mps": 9.5845375,
+            "traffic_id": "C6kvuBqYFxpxFf1m/B8aIhQ=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417633566804,
+            "speed_in_mps": 6.942531111111111,
+            "traffic_id": "C6k4nxqR+hdUAP/x//YXBA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632663907,
+            "speed_in_mps": 8.8022175,
+            "traffic_id": "C6kpxhqTnBdPAAAE/+oXHg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632135163,
+            "speed_in_mps": 8.332825555555555,
+            "traffic_id": "C6ktPBqXAh90Af/H/60fAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632304926,
+            "speed_in_mps": 8.319414166666666,
+            "traffic_id": "C6kwfRqXwxdyAf/D/6kfAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632304926,
+            "speed_in_mps": 8.377529444444445,
+            "traffic_id": "C6kwPRqYyBpzBf8T/w4aAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633303758,
+            "speed_in_mps": 9.486188611111112,
+            "traffic_id": "C6kwXRqZkh9wCP+6/k8aAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417632135162,
+            "speed_in_mps": 7.394041388888889,
+            "traffic_id": "C6kp5xqYtRdSAP/3//IXAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632135163,
+            "speed_in_mps": 8.896095833333334,
+            "traffic_id": "C6k+ChqC3BJTCv5Z/l8SAw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633753835,
+            "speed_in_mps": 7.791906944444445,
+            "traffic_id": "C6k4rhqKaRJQDQAC/UwSAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633272760,
+            "speed_in_mps": 6.3434975,
+            "traffic_id": "C6k4qhqMZRJPFAAI+9ASAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632850963,
+            "speed_in_mps": 6.768185555555556,
+            "traffic_id": "C6k4rhqNGRJQBP/4/wYSQB4=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.98168,
+            "report_time": 1417632430036,
+            "speed_in_mps": 9.356546944444446,
+            "traffic_id": "C6k8YxqVAB9oAAAT//8fGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566804,
+            "speed_in_mps": 6.942531111111111,
+            "traffic_id": "C6k4sBqSdhdQBf/b/vcXBA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566805,
+            "speed_in_mps": 9.571126388888889,
+            "traffic_id": "C6k4sBqG9BJPA//7/zgSQLk=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633738744,
+            "speed_in_mps": 19.727875,
+            "traffic_id": "C6kxURqMXQkmDAMUACIJGQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632929834,
+            "speed_in_mps": 9.320783888888888,
+            "traffic_id": "C6kffhqg4xJbAf+4ADUXCw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633209860,
+            "speed_in_mps": 9.714179166666666,
+            "traffic_id": "C6kxUBqU5RdaAP/qAAkXCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633566805,
+            "speed_in_mps": 8.104835,
+            "traffic_id": "C6kxTBqU3hdCAAAJAA8XEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632787852,
+            "speed_in_mps": 8.297062222222221,
+            "traffic_id": "C6k2mxqV4x9hAwAyAJofEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632663908,
+            "speed_in_mps": 9.723120000000002,
+            "traffic_id": "C6k1YRqPvh9/AP//AA4fDw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566804,
+            "speed_in_mps": 7.2241663888888885,
+            "traffic_id": "C6k8TRqPwx9lAAAdABAfFA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633784865,
+            "speed_in_mps": 8.699398333333333,
+            "traffic_id": "C6k8FBqAPBpgCP/TAbwaDQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633393839,
+            "speed_in_mps": 9.839350277777777,
+            "traffic_id": "C6kP8xqYNxdQOf0D+y4XCg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.854415833333334,
+            "report_time": 1417633378793,
+            "speed_in_mps": 11.24752638888889,
+            "traffic_id": "C6kpzhqTlhdbAP/vAA0XCw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632539956,
+            "speed_in_mps": 8.292591944444444,
+            "traffic_id": "C6k4rhqNGR9oAAARAAAfGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 33.340243055555554,
+            "report_time": 1417633816791,
+            "speed_in_mps": 15.780511944444445,
+            "traffic_id": "C6kTBRqqeAkrEAO2/pYJGQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566805,
+            "speed_in_mps": 9.325254166666667,
+            "traffic_id": "C6kzmxqNFh9oAwDnAAMfFw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 13.093801388888888,
+            "report_time": 1417633393839,
+            "speed_in_mps": 6.307734166666667,
+            "traffic_id": "C6kyARqNLCeFAQBDABUfFQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633393839,
+            "speed_in_mps": 9.580066944444445,
+            "traffic_id": "C6kvvBqYDxphAgAzAI0aEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632491976,
+            "speed_in_mps": 7.528153333333333,
+            "traffic_id": "C6kuhxqWRRpiAQAxAFQaMqs=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633784865,
+            "speed_in_mps": 8.127186944444444,
+            "traffic_id": "C6k8ARqP6B9gAQABAE8fEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417633753835,
+            "speed_in_mps": 4.3318175,
+            "traffic_id": "C6kU/xqo5x9hAAAHAA4fEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663906,
+            "speed_in_mps": 8.989974166666666,
+            "traffic_id": "C6k8NxqUcxphAQAVAEIaEQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632787852,
+            "speed_in_mps": 9.691826944444443,
+            "traffic_id": "C6k7thqVuBp/AgAGAJAaUME=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632430036,
+            "speed_in_mps": 8.189772777777778,
+            "traffic_id": "C6k7/RqKbB9gAAAAABAfEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633676730,
+            "speed_in_mps": 9.548774166666666,
+            "traffic_id": "C6k7+xqLdxp/BgAAAVAaEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632850963,
+            "speed_in_mps": 8.529523055555556,
+            "traffic_id": "C6k4VxpYcRdMFgP9/SQXHg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632631957,
+            "speed_in_mps": 9.37442861111111,
+            "traffic_id": "C6kbkBqdJxpkFwQNA3UaFA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 33.33577277777778,
+            "report_time": 1417633864097,
+            "speed_in_mps": 19.173545555555556,
+            "traffic_id": "C6kyIhqVcAkvCQA4/hcJHw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633753835,
+            "speed_in_mps": 8.4669375,
+            "traffic_id": "C6kdcxqexBpkEAMDAmAfEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633753835,
+            "speed_in_mps": 6.303263888888889,
+            "traffic_id": "C6kT4hqprRpsDAJj/lcaGg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633303758,
+            "speed_in_mps": 6.826300555555556,
+            "traffic_id": "C6kU/xqo5xppEARQ/2gaGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633676730,
+            "speed_in_mps": 6.9022975,
+            "traffic_id": "C6kTWhqqKBpsBgEl/vgaHA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632135163,
+            "speed_in_mps": 4.698390277777778,
+            "traffic_id": "C6kXFxqonhpoBQFC/9saGg==",
+            "traffic_level": 3
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566764,
+            "speed_in_mps": 8.45352638888889,
+            "traffic_id": "C6jv5hqk1BdYAv90AAoXCA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633738744,
+            "speed_in_mps": 5.534355,
+            "traffic_id": "C6kjOBqnaw8xAP/4/9AKAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633503794,
+            "speed_in_mps": 6.692188611111112,
+            "traffic_id": "C6kiWBqlbwpvB/+z/nMaAg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566805,
+            "speed_in_mps": 8.176361388888889,
+            "traffic_id": "C6k31RqS3BdRAP/7//AXAQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.986150277777778,
+            "report_time": 1417632679847,
+            "speed_in_mps": 6.575958333333333,
+            "traffic_id": "C6kbkBqdJxdcAP/0AAoXDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417632679847,
+            "speed_in_mps": 7.322515,
+            "traffic_id": "C6kbrxqc7BdAAv+8AH8XLMk=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633738744,
+            "speed_in_mps": 9.620300555555556,
+            "traffic_id": "C6kSAxqewBJFAAAxABcSFQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633503794,
+            "speed_in_mps": 8.279180555555556,
+            "traffic_id": "C6kyFxqKQR9nGwb+AFwfWBA=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633864098,
+            "speed_in_mps": 7.617561388888889,
+            "traffic_id": "C6k3BxqKahJIDQOM//8SGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633257761,
+            "speed_in_mps": 7.4610975,
+            "traffic_id": "C6k1mxqKbBJKCwMM//sSGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633503794,
+            "speed_in_mps": 7.939430277777778,
+            "traffic_id": "C6k6WxqKbBJIDQOBAAESGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.832063888888886,
+            "report_time": 1417633738744,
+            "speed_in_mps": 12.543942222222222,
+            "traffic_id": "C6j1xhqKthdHFQVBAPAXNsw=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632881953,
+            "speed_in_mps": 7.841081388888889,
+            "traffic_id": "C6k4uBqKaRJHDQODAAYSGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632663908,
+            "speed_in_mps": 8.377529444444445,
+            "traffic_id": "C6kdSBqnYR9kBQD6ALQPMiE=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633519789,
+            "speed_in_mps": 9.419132777777778,
+            "traffic_id": "C6k4tRqR1xdfBv/2AVYXEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633645732,
+            "speed_in_mps": 8.176361388888889,
+            "traffic_id": "C6k4uRqKcRJAFAAABDASEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633753835,
+            "speed_in_mps": 9.106204722222222,
+            "traffic_id": "C6k4txqJLRJADAACAqYSEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633519789,
+            "speed_in_mps": 9.884054166666667,
+            "traffic_id": "C6k4uBqIfhJAB///AXcSDw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633007829,
+            "speed_in_mps": 8.520582222222222,
+            "traffic_id": "C6k4uRqGKhJAAQAEAFQSEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632756880,
+            "speed_in_mps": 7.318044722222222,
+            "traffic_id": "C6kWaxqmxRJCBQCaAPMSEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633503794,
+            "speed_in_mps": 8.963151944444444,
+            "traffic_id": "C6k4sRqEQhJACQAOAe8SMBw=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633503794,
+            "speed_in_mps": 6.6787775,
+            "traffic_id": "C6kWthqnOhJCDgH1AoQSEA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633738744,
+            "speed_in_mps": 7.796377499999999,
+            "traffic_id": "C6kUcBqhVRJCKQMhCBASMAE=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.416031944444443,
+            "report_time": 1417632663908,
+            "speed_in_mps": 2.7761183333333332,
+            "traffic_id": "C6k4rBp+zRdLAQBY/8QXGw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633272760,
+            "speed_in_mps": 10.921186944444445,
+            "traffic_id": "C6k5oBqYqQ9QCf9+/hoXAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417632304927,
+            "speed_in_mps": 9.87958388888889,
+            "traffic_id": "C6k17RqWWT7vCAF0/10+GA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417632647901,
+            "speed_in_mps": 6.719011111111111,
+            "traffic_id": "C6k5vxqZHQ8xAv/k/5cPAA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633566805,
+            "speed_in_mps": 9.168790277777777,
+            "traffic_id": "C6k1TRqXQRJMAwB8/4ASHA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633363779,
+            "speed_in_mps": 8.873743888888889,
+            "traffic_id": "C6kkvxqcqxJCBACcAMASEg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633519789,
+            "speed_in_mps": 11.439753333333334,
+            "traffic_id": "C6k41hqV9RJRB/+E/mkSHg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.756066944444445,
+            "report_time": 1417633864098,
+            "speed_in_mps": 11.448694166666666,
+            "traffic_id": "C6kg7RqW9xJADQH0AjwSRBEAsANKEhI=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.845475,
+            "report_time": 1417633503794,
+            "speed_in_mps": 9.566655833333334,
+            "traffic_id": "C6kiOBqZnxdcAP/yAAwXDA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633241774,
+            "speed_in_mps": 5.109666944444444,
+            "traffic_id": "C6klERqdTxdQAv/k/2YXIaQ=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 18.03806388888889,
+            "report_time": 1417633318759,
+            "speed_in_mps": 11.198351944444445,
+            "traffic_id": "C6kdqRqnng8jBACFAOEPURk=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633566764,
+            "speed_in_mps": 8.055660555555555,
+            "traffic_id": "C6jvpBqk2RdIAgCM//YXGA==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633241774,
+            "speed_in_mps": 9.329724722222222,
+            "traffic_id": "C6kjMxqnMAogAgALAIAPDg==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.972739166666665,
+            "report_time": 1417633241774,
+            "speed_in_mps": 4.582160000000001,
+            "traffic_id": "C6klShqd6hJTBP+O/0YSAA==",
+            "traffic_level": 3
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633054807,
+            "speed_in_mps": 11.243055833333333,
+            "traffic_id": "C6j7iRqp7xdUAv+J/7oXBQ==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 20.836534166666667,
+            "report_time": 1417633393839,
+            "speed_in_mps": 11.743740555555556,
+            "traffic_id": "C6kjJBqZahJYCP4GAHISS9g=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 15.977209444444444,
+            "report_time": 1417633753835,
+            "speed_in_mps": 9.267139166666666,
+            "traffic_id": "C6k6ARpXgx9lAgBoAEUfM9U=",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.420502222222222,
+            "report_time": 1417632679847,
+            "speed_in_mps": 4.957673333333333,
+            "traffic_id": "C6kdfRqiGR9jAAAIAAgfEw==",
+            "traffic_level": 5
+        },
+        {
+            "free_flow_speed_in_mps": 10.420502222222222,
+            "report_time": 1417633566804,
+            "speed_in_mps": 3.200806388888889,
+            "traffic_id": "C6kdQhqiNx9iAAAFAAkfEg==",
+            "traffic_level": 5
+        }
+    ],
+    "traffic_incident": [
+        {
+            "description": "Traffic Camera",
+            "edge_id": [
+                ""
+            ],
+            "first_cross_street": "",
+            "incident_location": {
+                "lat": 37.49462,
+                "lon": -122.2345
+            },
+            "incident_severity": "LOW_IMPACT",
+            "incident_type": "TRAFFIC CAMERA",
+            "is_blocking": false,
+            "is_user_generated": false,
+            "second_cross_street": "",
+            "street_name": "WHIPPLE AVE",
+            "traffic_id": [
+                "C6kT4hqprR9kAAAyACAfFA=="
+            ]
+        },
+        {
+            "description": "Speed Trap",
+            "edge_id": [
+                ""
+            ],
+            "first_cross_street": "",
+            "incident_location": {
+                "lat": 37.02337,
+                "lon": -122.06112
+            },
+            "incident_severity": "LOW_IMPACT",
+            "incident_type": "SPEED TRAP",
+            "is_blocking": false,
+            "is_user_generated": false,
+            "second_cross_street": "",
+            "street_name": "CA-9",
+            "traffic_id": [
+                "C6k5JxpM0hdfsO8KGpEXEA=="
+            ]
+        },
+        {
+            "alert_c_event_quantifier": 1,
+            "description": "Central Expy - construction -",
+            "edge_id": [
+                ""
+            ],
+            "end_time": 1417647600000,
+            "event_code": 136,
+            "first_cross_street": "",
+            "incident_location": {
+                "lat": 37.394462,
+                "lon": -122.074725
+            },
+            "incident_severity": "CRITICAL",
+            "incident_type": "CONSTRUCTION",
+            "is_blocking": false,
+            "is_user_generated": false,
+            "second_cross_street": "",
+            "street_name": "Central Expy",
+            "traffic_id": [
+                "C6kx9RqXDRJaDfzyAT8SCg=="
+            ]
+        },
+        {
+            "alert_c_event_quantifier": 1,
+            "description": "Closed at N Mathilda Ave. permanently",
+            "edge_id": [
+                ""
+            ],
+            "end_time": 1417580601000,
+            "event_code": 136,
+            "first_cross_street": "",
+            "incident_location": {
+                "lat": 37.393840,
+                "lon": -122.029272
+            },
+            "incident_severity": "CRITICAL",
+            "incident_type": "MISCELLANEOUS",
+            "is_blocking": true,
+            "is_user_generated": false,
+            "second_cross_street": "",
+            "street_name": "N Mathilda Ave",
+            "traffic_id": [
+                "C6k43xqV8xJBEwEcA+sXEQ=="
+            ]
+        },
+        {
+            "alert_c_event_quantifier": 1,
+            "description": "xxx Rd - accident -",
+            "edge_id": [
+                ""
+            ],
+            "end_time": 1417636885000,
+            "event_code": 136,
+            "first_cross_street": "",
+            "incident_location": {
+    			"lat": 37.388460,
+    			"lon": -122.030609
+            },
+            "incident_severity": "CRITICAL",
+            "incident_type": "ACCIDENT",
+            "is_blocking": false,
+            "is_user_generated": false,
+            "second_cross_street": "",
+            "street_name": "xxx Rd",
+            "traffic_id": [
+                "C6k43xqV8xJBEwEcA+sXEQ=="
+            ]
+        },
+        {
+            "alert_c_event_quantifier": 1,
+            "description": "US101 - Congestion -",
+            "edge_id": [
+                ""
+            ],
+            "end_time": 1417580601000,
+            "event_code": 136,
+            "first_cross_street": "",
+            "incident_location": {
+    			"lat": 37.396990,
+    			"lon": -122.018012
+            },
+            "incident_severity": "CRITICAL",
+            "incident_type": "CONGESTION",
+            "is_blocking": true,
+            "is_user_generated": false,
+            "second_cross_street": "",
+            "street_name": "US101",
+            "traffic_id": [
+                "C6k7zBqXywk5Dvx5AMUJCQ=="
+            ]
+        }
+    ]
+}

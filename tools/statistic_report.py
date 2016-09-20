@@ -1,5 +1,5 @@
 import sys, os, time
-from distributedExecution.HtmlHandler import HtmlHandler
+from report.htmlhandler import HtmlHandler
 DIR = r"..\\..\\"
 HTML_FILE = r'statistic\statistic.html'
 TARGET_FILE = r'..\app\build\reports\androidTests\connected\index.html'
@@ -90,7 +90,7 @@ tags2=handle1.get_tags("div")
 for tag in tags1:
     handle2.insert_tag("head", tag)
 handle2.insert_tag("div",tags2[0],False)
-
+handle2.insert_iframe()
 #add backlog link into test report html page
 handle2.set_backlog_link()
 #copy js files

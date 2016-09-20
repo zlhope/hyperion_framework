@@ -217,7 +217,7 @@ public class EU_TestData extends TestData {
     public static String tc359Origin = "46.777263, 23.599901";
     public static String tc359Destination = "Rompetrol";
     public static String tc359Waypoint = "Napoca Oil";
-    // Denali-361:Add by recent places
+    // Denali-361:Add by recents places
     public static String tc361Origin = "46.783177, 23.600239";
     public static String tc361SearchText = "KFC";
     //Denali-362:Start Route
@@ -1032,7 +1032,7 @@ public class EU_TestData extends TestData {
     // Denali-1209:Dest arrival in turn list screen
     public static String tc1209rigin = "48.140026, 11.518507";
     public static String tc1209dest = "Esso";
-    // Denali-1210:Detailed recent info
+    // Denali-1210:Detailed recents info
     public static String tc1210origin = "52.398930, 5.346604";
     public static String tc1210destination = "Shell";
     //Denali-1222:Set one box search to favorite

@@ -8,7 +8,8 @@ import android.support.test.filters.SdkSuppress;
 import android.support.test.runner.AndroidJUnit4;
 
 import com.hyperion.framework.library.utils.HFVariables;
-import com.hyperion.framework.test.denali.suite.BATSuite;
+import com.hyperion.framework.test.denali.suite.BAT_TAG;
+import com.hyperion.framework.test.denali.suite.CN_BAT_Suite;
 import com.hyperion.framework.test.denali.testcase.rule.NA_CaseRule;
 
 import org.junit.After;
@@ -24,7 +25,7 @@ public class NA_TestSample extends NA_CaseRule {
     public void testSetup() throws Exception {
         HFVariables.TEST_CASE_NAME = testName.getMethodName();
         hfd.restartApp();
-        freeMapModule.waitForMainPage();
+        //freeMapModule.waitForFreeMap();
     }
 
     @After
@@ -32,16 +33,7 @@ public class NA_TestSample extends NA_CaseRule {
     }
 
     @Test
-    @Category(BATSuite.class)
-    public void DP1MY18_1129_SearchHideInStationaryMode() throws Exception {
-        clickIfExist(freeMap.sideBarButton);
-        uiaAssertTrue("objExist(freeMap.oneBoxEditText)", objExist(freeMap.oneBoxEditText));
-        click(freeMap.close);
-        waitUtilObjDisappear(freeMap.oneBoxEditText);
-        uiaAssertTrue("checkScreen(oneBoxSearch)", freeMapModule.logic1());
-        freeMapModule.logic2();
-        freeMapModule.logic4();
-        uiaAssertTrue("checkScreen(oneBoxSearch)", freeMap.checkScreen());
-        uiaAssertTrue("checkScreen(oneBoxSearch)", navigationModule.commonLogic());
+    @Category(BAT_TAG.class)
+    public void case1() throws Exception {
     }
 }

@@ -274,7 +274,7 @@ public class CN_TestData extends TestData {
     public static String tc359Origin = "31.206376,121.398765";
     public static String tc359Destination = "仙城加油站";
     public static String tc359Waypoint = "华辉加油站";
-    //Denali-361:Add by recent places
+    //Denali-361:Add by recents places
     public static String tc361Origin = "31.206376,121.398765";
     public static String tc361SearchText = "古北路与天山路交叉口";
     // //Denali-362:Start Route
@@ -1089,7 +1089,7 @@ public class CN_TestData extends TestData {
     public static String tc1209origin = "31.205889,121.398181";
     public static String tc1209dest = "仙城加油站";
 
-    // Denali-1210:Detailed recent info
+    // Denali-1210:Detailed recents info
     public static String tc1210origin = "31.205889,121.398181";
     public static String tc1210destination = "哈密路加油站";
 

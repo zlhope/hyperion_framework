@@ -9,10 +9,12 @@ import com.hyperion.framework.library.utils.HFObjectNotFoundException;
 import com.hyperion.framework.library.utils.HFVariables;
 import com.hyperion.framework.test.denali.module.Module;
 
+import java.util.HashMap;
+
 
 public class FreeMapModule extends Module {
 
-    public Boolean waitForMainPage() throws HFObjectNotFoundException {
+    public Boolean waitForFreeMap() throws HFObjectNotFoundException {
         if (objExist(common.mapPage, HFVariables.WAIT_LONG * 3)) {
             waitForElement(freeMap.oneBoxEditText, HFVariables.WAIT_LONG * 3);
             waitUtilObjEnabled(freeMap.oneBoxEditText);
@@ -21,13 +23,7 @@ public class FreeMapModule extends Module {
         return false;
     }
 
-    public boolean logic1() throws HFObjectNotFoundException {
-        HFLog.addRecordToLog("Common logic1!");
-        return true;
-    }
-
-    public boolean logic2() throws HFObjectNotFoundException {
-        HFLog.addRecordToLog("Common logic2!");
+    public Boolean initiateApp(HashMap<String, String> param) throws HFObjectNotFoundException {
         return true;
     }
 }

@@ -24,6 +24,7 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -40,7 +41,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             Manifest.permission.WRITE_EXTERNAL_STORAGE
     };
     // The TextView used to display the message inside the Activity.
-    private TextView mTextView;
+    private ImageView image;
     // The EditText where the user types the message.
     private EditText mEditText;
 
@@ -70,27 +71,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         verifyStoragePermissions(this);
-        // Set the listeners for the buttons.
-        findViewById(R.id.changeTextBt).setOnClickListener(this);
-        findViewById(R.id.activityChangeTextBtn).setOnClickListener(this);
-
-        mTextView = (TextView) findViewById(R.id.textToBeChanged);
-        mEditText = (EditText) findViewById(R.id.editTextUserInput);
     }
 
     @Override
     public void onClick(View view) {
         // Get the text from the EditText view.
         final String text = mEditText.getText().toString();
-        switch (view.getId()) {
-            case R.id.changeTextBt:
-                mTextView.setText(text);
-                break;
-            case R.id.activityChangeTextBtn:
-                // Second button's interaction: start an activity and send a message to it.
-                Intent intent = ShowTextActivity.newStartIntent(this, text);
-                startActivity(intent);
-                break;
-        }
     }
 }

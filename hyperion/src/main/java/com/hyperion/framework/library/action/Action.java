@@ -562,7 +562,7 @@ public class Action {
         } catch (Exception e) {
             HFLog.addRecordToLog("Get List Item Error!");
             HFLog.addRecordToLog(e.getStackTrace());
-            throw new HFObjectNotFoundException("Get List Item Error!");
+            throw new HFObjectNotFoundException("GET_LIST_ITEM_ERROR");
         }
     }
 
@@ -577,7 +577,7 @@ public class Action {
         } catch (Exception e) {
             HFLog.addRecordToLog("Get List Count Error!");
             HFLog.addRecordToLog(e.getStackTrace());
-            throw new HFObjectNotFoundException("Get List Count Error!");
+            throw new HFObjectNotFoundException("GET_LIST_COUNT_ERROR");
         }
     }
 
@@ -592,7 +592,7 @@ public class Action {
         } catch (Exception e) {
             HFLog.addRecordToLog("Get List Child Count Error!");
             HFLog.addRecordToLog(e.getStackTrace());
-            throw new HFObjectNotFoundException("Get List Child Count Error!");
+            throw new HFObjectNotFoundException("GET_LIST_COUNT_ERROR");
         }
     }
 
@@ -613,7 +613,7 @@ public class Action {
         } catch (Exception e) {
             HFLog.addRecordToLog("Get List Item Error!");
             HFLog.addRecordToLog(e.getStackTrace());
-            throw new HFObjectNotFoundException("Get List Item Error!");
+            throw new HFObjectNotFoundException("GET_LIST_ITEM_ERROR");
         }
     }
 
@@ -756,7 +756,7 @@ public class Action {
         return true;
     }
 
-    public boolean scrollUp(BySelector selector, int times, int step) throws HFObjectNotFoundException {
+    protected boolean scrollUp(BySelector selector, int times, int step) throws HFObjectNotFoundException {
         if (objExist(selector)) {
             for (int i = 0; i < times; i++) {
                 hfd.getDevice().findObject(selector).swipe(Direction.UP, 1.0f, step);
@@ -768,7 +768,7 @@ public class Action {
         return true;
     }
 
-    public boolean scrollLeft(BySelector selector, int times, int step) throws HFObjectNotFoundException {
+    protected boolean scrollLeft(BySelector selector, int times, int step) throws HFObjectNotFoundException {
         if (objExist(selector)) {
             for (int i = 0; i < times; i++) {
                 hfd.getDevice().findObject(selector).swipe(Direction.LEFT, 1.0f, step);
@@ -780,7 +780,7 @@ public class Action {
         return true;
     }
 
-    public boolean scrollRight(BySelector selector, int times, int step) throws HFObjectNotFoundException {
+    protected boolean scrollRight(BySelector selector, int times, int step) throws HFObjectNotFoundException {
         if (objExist(selector)) {
             for (int i = 0; i < times; i++) {
                 hfd.getDevice().findObject(selector).swipe(Direction.RIGHT, 1.0f, step);
@@ -792,7 +792,7 @@ public class Action {
         return true;
     }
 
-    public boolean scrollDown(BySelector selector, int times, int step, float percent) throws HFObjectNotFoundException {
+    protected boolean scrollDown(BySelector selector, int times, int step, float percent) throws HFObjectNotFoundException {
         if (objExist(selector)) {
             for (int i = 0; i < times; i++) {
                 hfd.getDevice().findObject(selector).swipe(Direction.DOWN, percent, step);
@@ -869,7 +869,7 @@ public class Action {
 
     protected void uiaAssertMatches(String msg, String str1, String str2) {
         if (!str1.matches(str2))
-            msg = "[" + str1 + "]" + "DO_NOT_MATCH_TO" + "[" + str2 + "]" + ":" +
+            msg = "[" + str1 + "]" + "DOES_NOT_MATCH_TO" + "[" + str2 + "]" + ":" +
                     HFVariables.REPORT_KEY_SCREEN_SHOT + HFDevice.screenShot(msg);
         assertTrue(msg, str1.matches(str2));
     }

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<project name="ClientAutomationTestResultUpload" default="run" basedir=".">
+    <path id="runpath">
+        <pathelement path="."/>
+        <fileset dir="lib">
+            <include name="**/*.jar"/>
+        </fileset>
+    </path>
+    
+    <target name="clean">
+        <echo>
+            clean....
+        </echo>
+        <delete quiet="true" dir="bin"/>
+    </target>
+    
+    <target name="compile" depends="clean">
+        <echo>
+            compiling java files
+        </echo>
+        <mkdir dir="bin"/>
+        <javac srcdir="src" destdir="bin" fork="yes" debug="yes">
+            <classpath refid="runpath"/>
+        </javac>
+    </target>
+    
+    <target name="jar" depends="compile">
+        <echo>
+            making jar files
+        </echo>
+        <jar compress="false" destfile="lib/ClientAutomation_ResultUpload.jar" basedir="bin">
+        </jar>
+    </target>
+    
+    <target name="run">
+        <echo>
+            running client automation result upload tool
+        </echo>
+        <java classname="com.telenav.resultUploadToTestlinkByCfield.TestResultUploadRunner" classpathref="runpath" failonerror="true" fork="yes" dir="." maxmemory="256m">
+            <arg value="${testResultDir}" />
+            <arg value="${projectName}" />
+            <arg value="${testPlanName}" />
+            <arg value="${customFieldName}" />
+            <arg value="${onlyUploadPassCases}" />
+            <arg value="${buildName}" />
+        </java>
+    </target>
+</project>
