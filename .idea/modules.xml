@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MY19.iml" filepath="$PROJECT_DIR$/MY19.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/hyperion/hyperion.iml" filepath="$PROJECT_DIR$/hyperion/hyperion.iml" />
     </modules>
   </component>

@@ -2,10 +2,20 @@ import sys, os, time
 from report.xmlparser import XmlParser
 from report.htmlhandler import HtmlHandler
 DIR = r"..\\..\\"
-XML_PATH=r"\app\build\outputs\androidTest-results\connected\\"
+ON_XML_PATH=r"\onboard_report\connected\\"
+OFF_XML_PATH=r"\offboard_report\connected\\"
 HTML_FILE = r'statistic\backlog.html'
 HTML_FILE1 = r'statistic\output.html'
 result_list = []
+
+if len(sys.argv) < 1:
+    print "Args error!"
+    exit()
+
+try:
+    offboard = sys.argv[1]
+except:
+    offboard = "true"
 
 def compare(x, y):
     stat_x = os.stat(DIR + "/" + x)
@@ -25,6 +35,11 @@ def get_dir_mtime(target_dir):
 dir_list = os.listdir(DIR)
 dir_list.sort(compare)
 
+if offboard == "true":
+    XML_PATH = OFF_XML_PATH
+else:
+    XML_PATH = ON_XML_PATH
+    
 for item in dir_list:
     try:
         xp=XmlParser(DIR + item + XML_PATH)
@@ -69,7 +84,7 @@ for i in range(len(result_list)):
     result_list[i]["percentage"]=str(round(result_list[i]["failures"]/float(total_count)*100,2))+"%";
     handle.excute_staisic(result_list[i])
 handle1.generate_output()
-os.system("python statistic_report.py")
+os.system("python statistic_report.py " + offboard)
 print "Statistic report has been generated successfully!"
 os.system("taskkill /f /im adb.exe")
 sys.exit(0)

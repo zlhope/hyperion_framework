@@ -11,8 +11,7 @@ class HtmlHandler:
         for info in self.data:
             for file_name in os.listdir(self.path):
                 if file_name.find(r".html") != -1:
-                    file_class_name = file_name.split(".")[-2]
-                    if file_class_name == info['testclass']:
+                    if file_name.find(info['testclass'])!= -1:
                         html_file = self.path + r"\\" + file_name
                         break
             fobj = open(html_file)
@@ -22,15 +21,74 @@ class HtmlHandler:
             h3list = soup.findAll("h3")
             for h3 in h3list:
                 if h3.string == info["testname"]:
-                    tag = soup.new_tag("img")
-                    tag.attrs = {"src":"img/" + info["failinfo"], "width":"50%", "height":"50%"}
-                    if info["testname"] + '.gif' in gif_files:
-                        tag = self.create_gif_tag(soup, tag, info["testname"])
-                    h3.find_next("pre").append(tag)
+                    if info["failinfo"] == "IMG_CMP_CASE":
+                        imgs = self._get_img_cmp_output_list(info["testname"])
+                        if len(imgs) > 0:
+                            h3.find_next("pre").string = ""
+                            h3.find_next("pre").append(self._create_img_cmp_tag(soup, imgs, info["testname"]))
+                    else:
+                        tag = soup.new_tag("img")
+                        tag.attrs = {"src":"img/" + info["failinfo"], "width":"50%", "height":"50%"}
+                        if info["testname"] + '.gif' in gif_files:
+                            tag = self.create_gif_tag(soup, tag, info["testname"])
+                        h3.find_next("pre").append(tag)
                     fobj = file(html_file, "w");
                     fobj.write(str(soup));
                     fobj.close();
+    
+    def _get_img_cmp_output_list(self, testname):
+        case_id = testname.split("_")[1]
+        imgs = []
+        for file_name in os.listdir(self.path +r"\img"):
+            try:
+                tmp = file_name.split("_")[1]
+                if tmp == case_id:
+                    imgs.append(file_name)
+            except:
+                pass
+        imgs.sort()
+        return imgs
                     
+    def _create_img_cmp_tag(self, soup , imgs , testname):
+        table_tag = soup.new_tag("table")
+        table_tag.attrs = {"border":"1"}
+        th1_tag = soup.new_tag("th")
+        th1_tag.attrs = {"style": "text-align:center; padding-left: 0", "width":"45%"}
+        th1_tag.insert(0, "Screen Shooting")
+        th2_tag = soup.new_tag("th")
+        th2_tag.attrs = {"style": "text-align:center; padding-left: 0", "width":"45%"}
+        th2_tag.insert(0, "Screen Reference")
+        th3_tag = soup.new_tag("th")
+        th3_tag.attrs = {"style": "text-align:center; padding-left: 0", "width":"10%"}
+        th3_tag.insert(0, "Similarity")
+        tr1_tag = soup.new_tag("tr")
+        tr1_tag.append(th1_tag)
+        tr1_tag.append(th2_tag)
+        tr1_tag.append(th3_tag)
+        table_tag.append(tr1_tag)
+        for img in imgs:
+            td1_tag = soup.new_tag("td")
+            td1_tag.attrs = {"style": "text-align:center; padding-left: 0", "width":"45%"}
+            td2_tag = soup.new_tag("td")
+            td2_tag.attrs = {"style": "text-align:center; padding-left: 0", "width":"45%"}
+            td3_tag = soup.new_tag("td")
+            td3_tag.attrs = {"style": "text-align:center; padding-left: 0", "width":"10%"}
+            img_tag = soup.new_tag("img")
+            img_tag.attrs = {"src":"img/" + img, "width":"360px"}
+            atag = soup.new_tag("a")
+            atag.insert(0, img)
+            td1_tag.append(img_tag)
+            td1_tag.append(soup.new_tag("br"))
+            td1_tag.append(atag)
+            td2_tag.insert(0, "TODO")
+            td3_tag.insert(0, "TODO")
+            tmp_tr_tag = soup.new_tag("tr")
+            tmp_tr_tag.append(td1_tag)
+            tmp_tr_tag.append(td2_tag)
+            tmp_tr_tag.append(td3_tag)
+            table_tag.append(tmp_tr_tag)
+        return table_tag
+    
     def create_gif_tag(self, soup , img_tag , testname):
         table_tag = soup.new_tag("table")
         table_tag.attrs = {"border":"1"}
@@ -213,7 +271,7 @@ class HtmlHandler:
         fobj = open(self.path)
         data = fobj.read()
         fobj.close()
-        fobj = open(r"..\app\build\log\Android_Automation_Log.log")
+        fobj = open(r"..\hyperion\build\log\Android_Automation_Log.log")
         data1 = fobj.readlines()
         fobj.close()
         soup = BeautifulSoup(data, "html.parser")
@@ -271,9 +329,10 @@ class HtmlHandler:
 if __name__ == '__main__' :
     import os
     # os.system(r"copy ..\..\app\build\reports\androidTests\connected\index_bk.html ..\..\app\build\reports\androidTests\connected\index.html /y")
-    folder_name = r'..\..\app\build\reports\androidTests\connected'
+    folder_name = r'..\..\hyperion\build\reports\androidTests\connected'
     handle = HtmlHandler(folder_name)
-    handle.excute()
+    #handle.excute()
+    print handle._get_img_cmp_output_list("DP_999_ImgCmpDemo1")
     # handle.output_add_toggle()
     # handle.excute_staisic(data2)
     

@@ -16,7 +16,7 @@ class XmlParser:
                 failinfo= self.handle_failinfo(child)
                 if failinfo!="" and failinfo is not None:
                     tmp={"testname":testname,
-                         "testclass":testclass.split(".")[-1],
+                         "testclass":testclass,
                          "failinfo":failinfo}
                     self.data.append(tmp)
                 
@@ -29,9 +29,12 @@ class XmlParser:
     def get_text(self,node):
         if node.nodeType == Node.TEXT_NODE :
             for line in node.nodeValue.split("\n"):
-                r = re.search('\d{14}_(.*\.png)', line)
-                if r is not None:
-                    return r.group()
+                if line.find("IMG_CMP_CASE")!= -1:
+                    return "IMG_CMP_CASE"
+                else:
+                    r = re.search('\d{14}_(.*\.png)', line)
+                    if r is not None:
+                        return r.group()
         else: return ""
     
     def get_xml_info(self):
@@ -44,7 +47,11 @@ class XmlParser:
                 
     def get_statistic_info(self):
         file_list = os.listdir(self.path)
-        doc = minidom.parse(self.path+"\\"+file_list[0])
+        for file_name in file_list:
+            if file_name.find(r".xml") != -1:
+                xml_file = file_name
+                break
+        doc = minidom.parse(self.path+"\\" + xml_file)
         for child in doc.childNodes :
             if child.nodeType == Node.ELEMENT_NODE:
                 self.handle_statistic(child)

@@ -2,9 +2,15 @@ import sys, os, time
 from report.htmlhandler import HtmlHandler
 DIR = r"..\\..\\"
 HTML_FILE = r'statistic\statistic.html'
-TARGET_FILE = r'..\app\build\reports\androidTests\connected\index.html'
+OFF_TARGET_PATH = r"..\offboard_report\connected\\"
+ON_TARGET_PATH = r"..\onboard_report\connected\\"
 result_list = []
- 
+
+try:
+    offboard = sys.argv[1]
+except:
+    offboard = "true"
+
 def compare(x, y):
     stat_x = os.stat(DIR + "/" + x)
     stat_y = os.stat(DIR + "/" + y)
@@ -20,13 +26,18 @@ def get_dir_mtime(target_dir):
     time_str = time.localtime(stat_dir.st_mtime)
     return time.strftime('%m-%d_%H', time_str)
 
+if offboard == "true":
+    TARGET_PATH = OFF_TARGET_PATH
+else:
+    TARGET_PATH = ON_TARGET_PATH
+
 #get statistic data 
 dir_list = os.listdir(DIR)
 dir_list.sort(compare)
 for item in dir_list:
     try:
         data = {}
-        linelist = open(r'..\\..\\' + item + r'\app\build\reports\androidTests\connected\index.html').readlines()
+        linelist = open(r'..\\..\\' + item + TARGET_PATH.replace("..", "") + "index.html").readlines()
         for i in range(len(linelist)):
             if linelist[i].find('<div class="infoBox" id="tests">') != -1:
                 testcount = linelist[i + 1].split("</")[0].split(">")[-1]
@@ -78,13 +89,13 @@ for i in range(len(linelist)):
 fobj = file(HTML_FILE, "w");
 fobj.writelines(linelist);
 fobj.close();
-if os.path.exists(r"..\app\build\reports\androidTests\connected\index_bk.html"):
-    os.system(r"copy ..\app\build\reports\androidTests\connected\index_bk.html "+TARGET_FILE+" /y")
+if os.path.exists(TARGET_PATH + "index_bk.html"):
+    os.system("copy "+ TARGET_PATH + "index_bk.html " + TARGET_PATH + "index.html" + " /y")
 else:
-    os.system("copy "+TARGET_FILE+r" ..\app\build\reports\androidTests\connected\index_bk.html /y")
+    os.system("copy "+ TARGET_PATH + "index.html " + TARGET_PATH + "index_bk.html " +" /y")
 #add statistic report into test report html page
 handle1=HtmlHandler(HTML_FILE)
-handle2=HtmlHandler(TARGET_FILE)
+handle2=HtmlHandler(TARGET_PATH + "index.html")
 tags1=handle1.get_tags("script")
 tags2=handle1.get_tags("div")
 for tag in tags1:
@@ -94,5 +105,5 @@ handle2.insert_iframe()
 #add backlog link into test report html page
 handle2.set_backlog_link()
 #copy js files
-os.system(r"xcopy .\statistic ..\app\build\reports\androidTests\connected\ /s/e/y/q")
+os.system(r"xcopy .\statistic " + TARGET_PATH[:-1] +" /s/e/y/q")
 sys.exit()

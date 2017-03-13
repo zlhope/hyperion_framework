@@ -1,4 +1,4 @@
-import os, sys
+import os, sys, threading, subprocess
 import urllib
 import datetime
   
@@ -39,19 +39,24 @@ class Install_Apk:
             print "Install APK Failed!"
     
     def pull_images(self):
-        os.system(r"mkdir ..\app\build\reports\androidTests\connected\img")
-        os.system(r"mkdir ..\app\build\log")
-        os.system(r"mkdir ..\app\build\gif_output")
+        os.system(r"mkdir ..\hyperion\build\reports\androidTests\connected\img")
+        os.system(r"mkdir ..\hyperion\build\log")
+        os.system(r"mkdir ..\hyperion\build\gif_output")
         for device in self.devices:
-            os.system("adb -s " + device + r" pull /sdcard/Files/Hyperion/ScreenShot ..\app\build\reports\androidTests\connected\img")
-            os.system("adb -s " + device + r" pull /sdcard/Files/Hyperion/Log ..\app\build\log")
-            os.system("adb -s " + device + r" pull /sdcard/Files/Hyperion/Gifs_Output ..\app\build\gif_output")
+            os.system("adb -s " + device + r" pull /sdcard/Files/Hyperion/ScreenShot ..\hyperion\build\reports\androidTests\connected\img")
+            os.system("adb -s " + device + r" pull /sdcard/Files/Hyperion/Log ..\hyperion\build\log")
+            os.system("adb -s " + device + r" pull /sdcard/Files/Hyperion/Gifs_Output ..\hyperion\build\gif_output")
     
         print "Pull images from devices successfully!"
     
     def set_property_to_EC(self , on_off_flag="true"):
-        os.system("ectool setProperty /myJob/buildId " + self.url.split('/')[-1].split("-")[-2])
-        report_path = r'..\app\build\reports\androidTests\connected\index.html'
+        try:
+            build_id = self.url.split('/')[-1].split("-")[-2]
+        except:
+            build_id = "Unknown"
+        os.system("ectool setProperty /myJob/buildId " + build_id)
+        os.system("ectool setProperty /myJob/dataVersion " + self._get_data_version())
+        report_path = r'..\hyperion\build\reports\androidTests\connected\index.html'
         if os.path.exists(report_path):
             linelist = open(report_path).readlines()
             for i in range(len(linelist)):
@@ -111,15 +116,38 @@ class Install_Apk:
         for data in xml_data:
             if data.find('''<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td>''') != -1:
                 version = data.split('''/">''')[1].split('''/</a>''')[0]
-                if version[0:2] == "1.":
+                if version[0:2] == "2.":
                     latest_version = version
         latest_url = base_url + latest_version + "/denali-android/denali-android-" + \
                    latest_version + "-signed.apk"
         print "Find latest build URL: " + latest_url
         return latest_url
     
+    def _cmd_run(self, cmd, output):
+        p = subprocess.Popen(cmd, stdout=output)
+    
+    def _get_data_version(self):
+        cmd = "adb shell cat /sdcard/TelenavMapData/version.txt"
+        results = os.popen(cmd).read().split("\r\n")
+        if(len(results) <= 2):
+            return "Unknown"
+        else:
+            return results[0].split("/")[-1].split(".")[0]
+
+    def logcat_collect(self):
+        for device in self.devices:
+            LOGCAT = open('logcat_'+device+'.txt','w')
+            cmd ="adb -s "+device+" logcat *:W"
+            print cmd
+            try:
+                sthread = threading.Thread(target = self._cmd_run, args = (cmd ,LOGCAT))
+                sthread.start()
+            except:
+                LOGCAT.close()
+                print "Error: unable to start thread"
+    
 if __name__ == '__main__':
-    # url= "http://tar2.telenav.com/repository/telenav/Denali-product1/Scout4cars-Android/1.13.456058/denali-android/denali-android-1.13.456058-signed.apk"
+    #download_url = "http://tar2.telenav.com/repository/telenav/Denali-product1/Scout4cars-Android/1.13.456058/denali-android/denali-android-1.13.456058-signed.apk"
     try:
         download_url = sys.argv[1]
     except:

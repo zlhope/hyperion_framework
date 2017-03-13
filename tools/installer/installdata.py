@@ -211,13 +211,6 @@ def checkUpdate(url, dest, region):
     if os.path.exists(dest + os.sep + region):
         shutil.rmtree(dest + os.sep + region)
 
-    os.system("taskkill /f /im adb.exe")
-    os.system("adb connect 192.168.1.100")
-
-    #reconnect device after adb kill in above step
-    #if "." in deviceArray[0]:
-    #    os.system("taskkill /f /im adb.exe")
-    #    os.system("adb connect 192.168.1.100")
 def checkUpdate4Device(versionRequestMap, dest, region, versionDeviceMap, deviceName, deviceDataPath):
     pool = Pool(processes=6)
     for key in versionRequestMap.keys():
